@@ -1,6 +1,16 @@
 TerminalPager.jl
 ================
 
+Version 0.6.5
+-------------
+
+- ![Feature][badge-feature] The user can hit `F1` or `Alt + h` to show a pager with the help
+  of the current identifier on the cursor. The extended help can be shown by hitting `Alt +
+  Shift + h`. (PRs [#49][gh-pr-49], [#50][gh-pr-50], [#51][gh-pr-51], [#52][gh-pr-52],
+  [#53][gh-pr-53], and [#55][gh-pr-55])
+- ![Bugfix][badge-bugfix] Fix a bug when creating the expression for `@help`. (Issue
+  [#54][gh-issue-54])
+
 Version 0.6.4
 -------------
 
@@ -203,6 +213,7 @@ Version 0.0.1
 [gh-issue-32]: https://github.com/ronisbr/TerminalPager.jl/issues/32
 [gh-issue-40]: https://github.com/ronisbr/TerminalPager.jl/issues/40
 [gh-issue-46]: https://github.com/ronisbr/TerminalPager.jl/issues/46
+[gh-issue-54]: https://github.com/ronisbr/TerminalPager.jl/issues/54
 
 [gh-pr-22]: https://github.com/ronisbr/TerminalPager.jl/pull/22
 [gh-pr-24]: https://github.com/ronisbr/TerminalPager.jl/pull/24
@@ -211,3 +222,9 @@ Version 0.0.1
 [gh-pr-39]: https://github.com/ronisbr/TerminalPager.jl/pull/39
 [gh-pr-41]: https://github.com/ronisbr/TerminalPager.jl/pull/41
 [gh-pr-44]: https://github.com/ronisbr/TerminalPager.jl/pull/44
+[gh-pr-49]: https://github.com/ronisbr/TerminalPager.jl/pull/49
+[gh-pr-50]: https://github.com/ronisbr/TerminalPager.jl/pull/50
+[gh-pr-51]: https://github.com/ronisbr/TerminalPager.jl/pull/51
+[gh-pr-52]: https://github.com/ronisbr/TerminalPager.jl/pull/52
+[gh-pr-53]: https://github.com/ronisbr/TerminalPager.jl/pull/53
+[gh-pr-55]: https://github.com/ronisbr/TerminalPager.jl/pull/55
